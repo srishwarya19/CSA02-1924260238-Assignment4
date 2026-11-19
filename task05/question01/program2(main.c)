@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int token = 1000;
+
+void issue_token(void)
+{
+    token++;
+    printf("Token: %d\n", token);
+}
